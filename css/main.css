@@ -1,0 +1,38 @@
+.wrapper {
+    margin: 20px auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    max-width: 330px;
+    height: auto;
+    padding: 10px;
+    box-sizing: border-box;
+}
+
+body {
+    background: lightgrey;
+}
+
+.boxes.reserved {
+    background: rgb(168, 203, 239);
+}
+
+.winner {
+    display: none;
+}
+
+.boxes {
+    width: 70px;
+    height: 70px;
+    margin: 3px;
+    border-radius: 5px;
+    background: rgb(168, 203, 239);
+    font: 32px sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.start-again {
+    cursor: pointer;
+}
